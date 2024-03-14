@@ -42,3 +42,10 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
+```bash
+MLFLOW_TRACKING_URI=https://dagshub.com/201812009/chest_diseases_classification_using_deep_learning.mlflow \
+MLFLOW_TRACKING_USERNAME=201812009 \
+MLFLOW_TRACKING_PASSWORD=fc5f987e5c84f308028cd5a000a5a5ca444084bb \
+python script.py
+```
