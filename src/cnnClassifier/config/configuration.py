@@ -2,10 +2,11 @@ from cnnClassifier.constants import *
 from cnnClassifier.utils.common import read_yaml, create_directories
 from cnnClassifier.entity.config_entity import (DataIngestionConfig,PrepareBaseModelConfig,
                                                 TrainingConfig,EvaluationConfig)
+
 import os
-os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/201812009/chest_diseases_classification_using_deep_learning.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="201812009"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "fc5f987e5c84f308028cd5a000a5a5ca444084bb"
+os.environ["MLFLOW_TRACKING_URI"]
+os.environ["MLFLOW_TRACKING_USERNAME"]
+os.environ["MLFLOW_TRACKING_PASSWORD"] 
 class ConfigurationManager:
     def __init__(
         self,
